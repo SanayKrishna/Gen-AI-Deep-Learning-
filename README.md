@@ -13,10 +13,8 @@ Three small neural network exercises in Keras / TensorFlow, written while learni
 Python 3.10 or newer.
 
 ```bash
-pip install tensorflow scikit-learn pandas numpy matplotlib jupyter
+pip install -r requirements.txt
 jupyter notebook
 ```
 
 The two CSV files are in the repo. MNIST downloads automatically the first time its notebook runs.
-
-`requirements.txt` is an environment export (UTF-16 encoded) that leaves out TensorFlow and scikit-learn, so the `pip install` line above is the reliable one.
